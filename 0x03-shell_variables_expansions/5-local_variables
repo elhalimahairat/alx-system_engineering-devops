@@ -1,2 +1,2 @@
 #!/bin/bash
-comm -23 <(set -o posix; set | sort) <(env | sort)
+diff set.sorted printenv.sorted

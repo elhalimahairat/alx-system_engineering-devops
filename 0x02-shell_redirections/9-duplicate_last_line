@@ -1,2 +1,2 @@
 #!/bin/bash
-tail iacta | head -n 10
+uniq -d iacta
